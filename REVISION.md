@@ -10,4 +10,9 @@ v1.0.0 (2017-09-02)
 v1.1.0 (2017-09-02)
 ---------------------------------------
 
-* Added some contnt and first report.
+* Added some content and first report.
+
+v1.1.1 (2017-09-02)
+---------------------------------------
+
+* Some byline changes.
