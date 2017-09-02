@@ -41,8 +41,10 @@ return [
             "template" => "default/image",
             "data" => [
                 "class" => "logo-1",
-                "src" => "img/favicon/favicon_128x128.png",
-                "alt" => "Logo",
+                //"src" => "img/favicon/favicon_128x128.png",
+                "src" => "",
+                //"alt" => "Logo",
+                "alt" => "",
             ],
             "sort" => 1
         ],

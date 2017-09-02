@@ -1,6 +1,17 @@
 ---
-titleBreadcrumb: Home
+titleBreadcrumb: Hem
+
+views:
+    byline:
+        region: after-main
+        template: default/content
+        sort: 1
+        data:
+            meta:
+                type: content
+                route: block/byline
 ...
+
 Vi lär oss göra hemsidor med Anax Flat
 ===============================
 

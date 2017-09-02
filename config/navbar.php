@@ -14,6 +14,12 @@ return [
         // Here comes the menu structure
         "items" => [
 
+            "hem" => [
+                "text"  => t("Hem"),
+                "url"   => $this->di->get("url")->create(""),
+                "title" => t("Indexsidan")
+            ],
+
             "report" => [
                 "text"  => t("Redovisningar"),
                 "url"   => $this->di->get("url")->create("report"),
@@ -30,7 +36,13 @@ return [
             "test" => [
                 "text"  => t("Test"),
                 "url"   => $this->di->get("url")->create("test"),
-                "title" => t("Testar en ny sida")
+                "title" => t("Testar markdown")
+            ],
+
+            "markdown" => [
+                "text"  => t("Markdown"),
+                "url"   => $this->di->get("url")->create("markdown"),
+                "title" => t("Exempel på markdowntext.")
             ],
         ],
     ],
