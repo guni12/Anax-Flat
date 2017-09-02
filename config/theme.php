@@ -90,7 +90,7 @@ return [
                         "contentRoute" => "block/footer-col-2",
                     ],
                     [
-                        "contentRoute" => "block/footer-col-3",
+                        "contentRoute" => "block/byline",
                     ]
                 ]
             ],
@@ -101,7 +101,7 @@ return [
             "template" => "default/block",
             "data" => [
                 "class" => "site-footer",
-                "contentRoute" => "block/footer",
+                "contentRoute" => "block/footer-col-3",
             ],
             "sort" => 2
         ],
