@@ -28,3 +28,5 @@ Källkoden, av min variant, finns på GitHub: [guni12/Anax-Flat](https://github.
 Källkod till temat: [guni12/anax-flat-theme](https://github.com/guni12/anax-flat-theme).
 
 Jag som lär mig ramverket genom denna hemsida heter Gunvor Nilsson.
+
+Nu dags för <i class="fa fa-coffee" aria-hidden="true" style="font-size:24px"></i> <i class="fa fa-smile-o" style="font-size:36px;color:yellow"></i>
