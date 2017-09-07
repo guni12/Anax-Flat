@@ -25,4 +25,6 @@ Källkoden, skapad av Mikael Roos, finns på GitHub: [canax/anax-flat](git@githu
 
 Källkoden, av min variant, finns på GitHub: [guni12/Anax-Flat](https://github.com/guni12/Anax-Flat.git).
 
+Källkod till temat: [guni12/anax-flat-theme](https://github.com/guni12/anax-flat-theme).
+
 Jag som lär mig ramverket genom denna hemsida heter Gunvor Nilsson.
