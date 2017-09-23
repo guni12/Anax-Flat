@@ -2,6 +2,7 @@
 /**
  * Config-file for navigation bar.
  *
+
  */
 return [
 
@@ -24,7 +25,7 @@ return [
                 "text"  => t("Redovisningar"),
                 "url"   => $this->di->get("url")->create("report"),
                 "title" => t("Redovisningar från kmom uppgifter"),
-                "mark-if-parent" => true,
+                "mark-if-parent" => true
             ],
 
             "about" => [
@@ -33,16 +34,22 @@ return [
                 "title" => t("Om den här webbsidan")
             ],
 
+            "grid" => [
+                "text"  => t("Grid"),
+                "url"   => $this->di->get("url")->create("grid"),
+                "title" => t("Testar Grid")
+            ],
+
             "test" => [
                 "text"  => t("Test"),
                 "url"   => $this->di->get("url")->create("test"),
                 "title" => t("Testar markdown")
             ],
 
-            "markdown" => [
-                "text"  => t("Markdown"),
-                "url"   => $this->di->get("url")->create("markdown"),
-                "title" => t("Exempel på markdowntext.")
+            "typography" => [
+                "text"  => t("Typography"),
+                "url"   => $this->di->get("url")->create("typography"),
+                "title" => t("Typography")
             ],
         ],
     ],
@@ -71,7 +78,7 @@ return [
                 "text"  => t("Redovisningar"),
                 "url"   => $this->di->get("url")->create("report"),
                 "title" => t("Redovisningar från kmom uppgifter"),
-                "mark-if-parent" => true,
+                "mark-if-parent" => true
             ],
 
             "about" => [
@@ -80,16 +87,22 @@ return [
                 "title" => t("Om den här webbsidan")
             ],
 
+            "grid" => [
+                "text"  => t("Grid"),
+                "url"   => $this->di->get("url")->create("grid"),
+                "title" => t("Testar Grid")
+            ],
+
             "test" => [
                 "text"  => t("Test"),
                 "url"   => $this->di->get("url")->create("test"),
                 "title" => t("Testar markdown")
             ],
 
-            "markdown" => [
-                "text"  => t("Markdown"),
-                "url"   => $this->di->get("url")->create("markdown"),
-                "title" => t("Exempel på markdowntext.")
+            "typography" => [
+                "text"  => t("Typography"),
+                "url"   => $this->di->get("url")->create("typography"),
+                "title" => t("Typography")
             ],
         ],
     ],

@@ -41,18 +41,20 @@ return [
      * Add default views to always include.
      */
     "views" => [
+        /*
         [
             "region" => "header",
             "template" => "default/image",
             "data" => [
-                "class" => "logo-1",
+                //"class" => "logo-1",
+                "class" => "",
                 //"src" => "img/favicon/favicon_128x128.png",
                 "src" => "",
                 //"alt" => "Logo",
                 "alt" => "",
             ],
             "sort" => 1
-        ],
+        ],*/
         [
             "region" => "header",
             "template" => "default/header",
@@ -95,7 +97,7 @@ return [
                         "contentRoute" => "block/footer-col-2",
                     ],
                     [
-                        "contentRoute" => "block/byline",
+                        "contentRoute" => "block/footer-col-3",
                     ]
                 ]
             ],
@@ -106,7 +108,7 @@ return [
             "template" => "default/block",
             "data" => [
                 "class" => "site-footer",
-                "contentRoute" => "block/footer-col-3",
+                "contentRoute" => "block/byline",
             ],
             "sort" => 2
         ],

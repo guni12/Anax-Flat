@@ -27,12 +27,22 @@ return [
             ]
         ],
 
+        "separator01" => "------------------------------------------------",
+
+        "vgrid"      => [
+            "title"      => "Vertical grid",
+            "class"      => "",
+            "stylesheets" => [
+                "css/vgrid.min.css"
+            ]
+        ],
+
         "separator1" => "------------------------------------------------",
 
         "light"     =>  [
             "title"      => "Very light theme, white, black and nuances of grey",
             "class"      => "light",
-            "stylesheets" => []
+            "stylesheets" => ["css/style.min.css"]
         ],
 
         "color"     => [
