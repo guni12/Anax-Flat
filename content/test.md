@@ -1,4 +1,10 @@
-<div style="border: 3px solid orange;overflow: auto;padding:2em;" markdown=1>
+---
+titleBreadcrumb: Markdown
+
+class: mark-border
+...
+
+
 Testar Markdown
 ==============================================
 [Referera med nummer (Se mer vad du kan göra)][1]
@@ -36,4 +42,3 @@ Här är ett foto från [www.behovsbo.se](http://www.behovsbo.se/):
 
 [1]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links
 
-</div>

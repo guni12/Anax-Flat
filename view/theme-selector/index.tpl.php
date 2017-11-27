@@ -47,7 +47,7 @@
     <li>Add stylesheets as defined.</li>
 </ul>
 
-<p>You edit the settings for each theme in the configuration file <code>config/theme-selecotr.php</code>.</p>
+<p>You edit the settings for each theme in the configuration file <code>config/theme-selector.php</code>.</p>
 
 <p>The view for the theme selector is in <code>view/theme-selector/index.tpl.php</code>. There is no need to edit this file.</p>
 

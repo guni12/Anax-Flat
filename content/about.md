@@ -1,5 +1,5 @@
 ---
-titleBreadcrumb: Borta
+titleBreadcrumb: Om
 
 views:
     img:
