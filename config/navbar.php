@@ -22,14 +22,14 @@ return [
             ],
 
             "report" => [
-                "text"  => t("Redovisningar"),
+                "text"  => t("Kmom"),
                 "url"   => $this->di->get("url")->create("report"),
                 "title" => t("Redovisningar från kmom uppgifter"),
                 "mark-if-parent" => true
             ],
 
             "analysis" => [
-                "text"  => t("Analyser"),
+                "text"  => t("Analys"),
                 "url"   => $this->di->get("url")->create("analysis"),
                 "title" => t("Analyser av olika slag"),
                 "mark-if-parent" => true
@@ -47,8 +47,14 @@ return [
                 "title" => t("Testar Grid")
             ],
 
+            "fun" => [
+                "text"  => t("Fun"),
+                "url"   => $this->di->get("url")->create("fun"),
+                "title" => t("Fun?")
+            ],
+
             "theme" => [
-                "text"  => t("Theme"),
+                "text"  => t("Tema"),
                 "url"   => $this->di->get("url")->create("theme"),
                 "title" => t("Teman")
             ],
@@ -60,7 +66,7 @@ return [
             ],
 
             "typography" => [
-                "text"  => t("Typography"),
+                "text"  => t("Typog"),
                 "url"   => $this->di->get("url")->create("typography"),
                 "title" => t("Typography")
             ],
@@ -118,6 +124,12 @@ return [
                 "url"   => $this->di->get("url")->create("grid"),
                 "title" => t("Testar Grid")
             ],
+
+            "fun" => [
+                "text"  => t("Fun"),
+                "url"   => $this->di->get("url")->create("fun"),
+                "title" => t("Fun?")
+            ],            
 
             "theme" => [
                 "text"  => t("Theme"),

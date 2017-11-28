@@ -19,7 +19,7 @@ return [
             "lang"          => "sv",
             "charset"       => "utf-8",
             "title_append"  => " | Anax Flat",
-            "favicon"       => "img/favicon/favicon_256x256.png",
+            "favicon"       => "img/favicon/favicon_128x128.png",
 
             // Style and stylesheets
             //"stylesheets" => ["css/default.min.css"],
