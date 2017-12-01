@@ -9,6 +9,25 @@ Testar Markdown
 ==============================================
 [Referera med nummer (Se mer vad du kan göra)][1]
 
+Lägger in en bild för att testa `picture` och `srcset`
+
+<picture>
+    <!-- 16:9 crop -->
+    <source
+        media="(min-width: 36em)"
+        srcset="img/botanik/large/large.jpg  1920w,
+                img/botanik/large/medium.jpg  960w,
+                img/botanik/large/small.jpg   480w" />
+    <!-- square crop -->
+    <source
+        srcset="img/botanik/square/large.jpg  822w,
+                img/botanik/square/medium.jpg 640w,
+                img/botanik/square/small.jpg  320w" />
+    <img
+        src="img/botanik/large/medium.jpg"
+        alt="Botaniska växter på Kanarieöarna" />
+</picture>
+
 > Ett viktigt citat
 
 #### En h4 rubrik ####
