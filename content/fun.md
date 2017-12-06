@@ -2,31 +2,15 @@
 titleBreadcrumb: Fun
 
 views:
-    side-right:
-        region: sidebar-right
-        template: default/image
-        data:
-            class: "spread"
-            src: "img/pig8.jpg"
 
-    columns-below:
-        region: columns-below
-        template: default/columns
-        data:
-            class: spread column-below
-            columns: [contentRoute: regions/pig1, contentRoute: regions/pig2, contentRoute: regions/pig3, contentRoute: regions/pig4]
-
-    lmain:
-        region: sidebar-left
-        template: default/image
-        data:
-            class: "spread"
-            src: "img/pig3.jpg"
-
-    main:
-        region: main
-        template: default/image
-        data:
-            class: "spread"
-            src: "img/pig7.jpg"
 ...
+
+##Universum##
+
+[FIGURE src="cimage/imgd.php?src=book.jpg" class="left w40"]
+
+###<span class="funtext">Fattar du vilket häftigt ställe vi lever på?</span>###
+
+<span class="funtext">Här pratar vi om allt under solen. Kasta loss!!!</span>
+
+<span class="funtext">[The Universe](https://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Dstripbooks&field-keywords=universe)</span>

@@ -1,1 +1,0 @@
-<img src="img/pig4.jpg" />

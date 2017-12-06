@@ -6,7 +6,7 @@ views:
         region: sidebar-left
         template: default/image
         data:
-            src: "img/gunvor.jpg"
+            src: "img/kristina.jpg"
 
 ...
 

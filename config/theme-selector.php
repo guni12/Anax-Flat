@@ -11,27 +11,28 @@ return [
 
         "separator0" => "------------------------------------------------",
 
-        "base"      => [
-            "title"      => "Minimal style, only the plain base",
-            "class"      => "",
-            "stylesheets" => [
-                "css/base.min.css"
-            ]
-        ],
-
         "default"   => [
             "title"      => "Your own selected default theme",
-            "class"      => "",
+            "class"      => "default",
             "stylesheets" => [
                 "css/dark.min.css"
             ]
         ],
 
+        "base"      => [
+            "title"      => "Minimal style, only the plain base",
+            "class"      => "base",
+            "stylesheets" => [
+                "css/base.min.css"
+            ]
+        ],
+
+
         "separator01" => "------------------------------------------------",
 
         "vgrid"      => [
             "title"      => "Vertical grid",
-            "class"      => "",
+            "class"      => "vgrid",
             "stylesheets" => [
                 "css/vgrid.min.css"
             ]
@@ -74,7 +75,45 @@ return [
         "fun"       => [
             "title"      => "All fun, test and play, make it stand out!",
             "class"      => "fun",
-            "stylesheets" => ["css/style.min.css"]
+            "stylesheets" => ["css/fun.min.css"]
+        ],
+
+        "separator3" => "------------------------------------------------",
+
+        "photo"       => [
+            "title"      => "Designelements, photo",
+            "class"      => "photo",
+            "stylesheets" => ["css/photo.min.css"]
+        ],
+
+        "line"       => [
+            "title"      => "Designelements, line",
+            "class"      => "line",
+            "stylesheets" => ["css/line.min.css"]
+        ],
+
+        "motion"       => [
+            "title"      => "Designelements, motion",
+            "class"      => "motion",
+            "stylesheets" => ["css/motion.min.css"]
+        ],
+
+        "balance"       => [
+            "title"      => "Designprinciples, balance",
+            "class"      => "balance",
+            "stylesheets" => ["css/balance.min.css"]
+        ],
+
+        "moremotion"       => [
+            "title"      => "Designprinciples, moving, variation",
+            "class"      => "moremotion",
+            "stylesheets" => ["css/moremotion.min.css"]
+        ],
+
+        "bad"       => [
+            "title"      => "It does not work",
+            "class"      => "bad",
+            "stylesheets" => ["css/bad.min.css"]
         ],
     ]
 ];
